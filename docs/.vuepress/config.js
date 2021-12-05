@@ -15,16 +15,20 @@ module.exports = {
 		link: 'https://www.smqtt.cc/', 
 		icon: 'reco-home' 
 	  },
+        { text: '支持',
+            icon: 'reco-three',
+            link: '/support/'
+        },
 	  { text: '文档', 
         icon: 'reco-document',
 		items: [
-          { text: 'smqtt文档', link: '/docs/smqtt/' },
-		  { text: 'MQTT协议3.1.1中文版', link: '/docs/mqtt/' }
+          { text: 'smqtt文档', link: '/smqtt/' },
+		  { text: 'MQTT协议3.1.1中文版', link: '/mqtt/' }
         ]
       },
 	  { text: '合作公司', 
         icon: 'reco-blog',
-		link: '/docs/customer/'
+		link: '/customer/'
       },
       { text: 'GitHub', 
         icon: 'reco-github',
@@ -41,7 +45,7 @@ module.exports = {
 	//  }
     ],
    sidebar: {	  
-	  '/docs/smqtt/': [
+	  '/smqtt/': [
 		{
           title: 'smqtt文档',
           collapsable: false,
@@ -146,7 +150,7 @@ module.exports = {
           ]
         },
       ],
-	  '/docs/mqtt/': [
+	  '/mqtt/': [
 		{
           title: 'MQTT文档',
           collapsable: false,
