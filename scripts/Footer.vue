@@ -1,9 +1,5 @@
 <template>
   <div class="footer-wrapper">
-    <!-- <span>
-      <reco-icon icon="reco-theme" />
-      <a target="blank" href="https://vuepress-theme-reco.recoluan.com">{{`vuepress-theme-reco@${version}`}}</a>
-    </span> -->
     <span v-if="$themeConfig.record">
       <reco-icon icon="reco-beian" />
       <a :href="$themeConfig.recordLink || '#'">{{ $themeConfig.record }}</a>
@@ -30,13 +26,15 @@
 </template>
 
 <script>
-import { defineComponent, computed, getCurrentInstance } from 'vue-demi'
+import { defineComponent, computed } from 'vue-demi'
 import { RecoIcon } from '@vuepress-reco/core/lib/components'
-import { version } from '../../package.json'
+import { version } from '../package.json'
+import { useInstance } from '@theme/helpers/composable'
+
 export default defineComponent({
   components: { RecoIcon },
   setup (props, ctx) {
-    const instance = getCurrentInstance().proxy
+    const instance = useInstance()
     const showAccessNumber = computed(() => {
       const {
         $themeConfig: { valineConfig },
@@ -53,32 +51,32 @@ export default defineComponent({
 </script>
 
 <style lang="stylus" scoped>
-  .footer-wrapper {
-    padding: 1.5rem 2.5rem;
-    border-top: 1px solid var(--border-color);
-    text-align: center;
-    color: lighten($textColor, 25%);
-    a {
-      font-size 14px
-    }
-    > span {
-      margin-left 1rem
-      > i {
-        margin-right .5rem
-      }
-    }
-    .cyber-security {
-      img {
-        margin-right .5rem
-        width 20px
-        height 20px
-        vertical-align middle
-      }
-      a {
-        vertical-align middle
-      }
+.footer-wrapper {
+  padding: 1.5rem 2.5rem;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: lighten($textColor, 25%);
+  a {
+    font-size 14px
+  }
+  > span {
+    margin-left 1rem
+    > i {
+      margin-right .5rem
     }
   }
+  .cyber-security {
+    img {
+      margin-right .5rem
+      width 20px
+      height 20px
+      vertical-align middle
+    }
+    a {
+      vertical-align middle
+    }
+  }
+}
 
 @media (max-width: $MQMobile) {
   .footer {
