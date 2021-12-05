@@ -38,9 +38,9 @@ jobs:
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
         run: yarn --frozen-lockfile
-
-      - name: replace footer
-        run: sh -e scripts/patch.sh
+#
+#      - name: replace footer
+#        run: sh -e scripts/patch.sh
 
       # 运行构建脚本
       - name: Build VuePress site
