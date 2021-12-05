@@ -32,7 +32,7 @@
 <script>
 import { defineComponent, computed, getCurrentInstance } from 'vue-demi'
 import { RecoIcon } from '@vuepress-reco/core/lib/components'
-import { version } from '../package.json'
+import { version } from '../../package.json'
 export default defineComponent({
   components: { RecoIcon },
   setup (props, ctx) {
