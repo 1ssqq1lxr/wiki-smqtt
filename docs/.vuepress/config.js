@@ -289,7 +289,7 @@ module.exports = {
 		  },
 		  {
 			type: 'image',
-			src: '/wx.png'
+			src: '/wiki-smqtt/wx.png'
 		  }
 		],
 		footer: [
