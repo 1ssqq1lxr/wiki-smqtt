@@ -26,15 +26,13 @@
 </template>
 
 <script>
-import { defineComponent, computed } from 'vue-demi'
+import { defineComponent, computed, getCurrentInstance } from 'vue-demi'
 import { RecoIcon } from '@vuepress-reco/core/lib/components'
 import { version } from '../package.json'
-import { useInstance } from '@theme/helpers/composable'
-
 export default defineComponent({
   components: { RecoIcon },
   setup (props, ctx) {
-    const instance = useInstance()
+    const instance = getCurrentInstance().proxy
     const showAccessNumber = computed(() => {
       const {
         $themeConfig: { valineConfig },
