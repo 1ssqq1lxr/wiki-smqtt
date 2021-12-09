@@ -112,6 +112,7 @@ module.exports = {
           title: '规则引擎文档',
           collapsable: false,
           children: [
+            'rule/0.rule',
 			'rule/1.rule',
             'rule/2.config',
             'rule/3.predicate',
