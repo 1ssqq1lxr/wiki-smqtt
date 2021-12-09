@@ -2,7 +2,7 @@ module.exports = {
   title: "SMQTT在线文档",
   description: 'SMQTT是一款开源的MQTT消息代理Broker',
   dest: 'public',
-  base: '/wiki-smqtt/',
+  base: '/',
   sidebar: 'auto',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -289,7 +289,7 @@ module.exports = {
 		  },
 		  {
 			type: 'image',
-			src: '/wiki-smqtt/wx.png'
+			src: '/wx.png'
 		  }
 		],
 		footer: [
