@@ -16,7 +16,7 @@ bgImageStyle: {
 }
 isShowTitleInHome: false
 actionText: 快速开始→
-actionLink: /docs/smqtt/
+actionLink: /smqtt/
 features:
 
 - title: 性能
