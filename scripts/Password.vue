@@ -80,11 +80,11 @@ export default defineComponent({
       sessionStorage.setItem(keyName, keyVal)
       const isKeyTrue = isPage.value ? isHasPageKey() : isHasKey()
       if (!isKeyTrue) {
-        warningText.value = 'Key Error'
+        warningText.value = '密码错误'
         return
       }
 
-      warningText.value = 'Key Success'
+      warningText.value = '密码正确'
 
       const width = document.getElementById('box').style.width
 
@@ -97,11 +97,11 @@ export default defineComponent({
     }
 
     const inputFocus = () => {
-      warningText.value = 'Input Your Key'
+      warningText.value = '请输入密码'
     }
 
     const inputBlur = () => {
-      warningText.value = 'Konck! Knock!'
+      warningText.value = '请输入密码!'
     }
 
     return { warningText, year, key, recoShowModule, inter, inputFocus, inputBlur }
