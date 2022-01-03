@@ -58,9 +58,10 @@ title: 项目简介
 
 |  管理   | 说明  | 其他  |
 |  ----  | ----  |----  |
-| 123.57.69.210:1883  | mqtt端口 |用户名：smqtt 密码：smqtt |
-| 123.57.69.210:8999  | mqtt over websocket |用户名：smqtt 密码：smqtt  |
-| http://123.57.69.210:60000/smqtt/admin | 管理后台 |用户名：smqtt 密码：smqtt  |
+| 113.90.145.99:18886 | mqtt端口 |用户名：smqtt 密码：smqtt |
+| 113.90.145.99:18888 | mqtt over websocket |用户名：smqtt 密码：smqtt  |
+| http://113.90.145.99:18887/smqtt/admin | 管理后台演示 |用户名：smqtt 密码：smqtt  |
+| [http://113.90.145.99:18885/dashboards](http://113.90.145.99:18885) | Grafana演示地址 |用户名：smqtt 密码：smqtt |
 
 ## 商业合作
 
