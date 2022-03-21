@@ -140,6 +140,13 @@ module.exports = {
                         'monitor/3.GrafanaInfluxDB'
                     ]
                 },
+				{
+                    title: 'ACL权限',
+                    collapsable: false,
+                    children: [
+                        'acl/1.acl'
+                    ]
+                },
                 {
                     title: '其他',
                     collapsable: false,
