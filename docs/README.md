@@ -26,6 +26,9 @@ features:
 - title: 部署
   details: 
      支持jar、docker、main、springboot-starter部署
+- title: 商业化
+  details: 
+     商业化版本源码出售，高性能架构，请添加微信！
 
 
 
