@@ -19,13 +19,10 @@ actionText: 快速开始→
 actionLink: /smqtt/
 features:
 
-- title: 性能
+- title: 高性能
   details: SMQTT基于reactor-core反应库构建，具备低延迟，高吞吐量等特点，支持百万连接！
-- title: 功能
+- title: 多功能
   details: 一款实现mqtt集群化，持久化，以及规则引擎，监控后台等功能的开源mqtt broker
-- title: 部署
-  details: 
-     支持jar、docker、main、springboot-starter部署
 - title: 商业化
   details: 
      商业化版本源码出售，高性能架构，请添加微信！
