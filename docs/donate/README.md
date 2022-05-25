@@ -12,7 +12,7 @@ title: 说明
 
 |                            WeChat                            |                            AliPay                            |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
-| ![wxzf](https://gitee.com/eeasy/picbed/raw/master/img/202011/wxzf.png) | ![zfbzf](https://gitee.com/eeasy/picbed/raw/master/img/202011/zfbzf.png) |
+| ![wxzf](wxzf.png) | ![zfbzf](zfbzf.png) |
 
 ### 打赏记录
 

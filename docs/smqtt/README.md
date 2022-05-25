@@ -5,7 +5,7 @@ title: 项目简介
 
 ## 架构图
 
-![component108](https://gitee.com/eeasy/picbed/raw/master/img/202011/component108.png)
+![component108](component108.png)
 
 ## smqtt目前拥有的功能如下：
 
@@ -69,7 +69,7 @@ title: 项目简介
 
 
 ## 麻烦关注下公众号！
-![icon](https://gitee.com/eeasy/picbed/raw/master/img/202011/icon.jpg)
+![icon](icon.jpg)
 
 - 添加微信号`Lemon877164954`拉入smqtt官方交流群
 - 加入qq群 `700152283` 
