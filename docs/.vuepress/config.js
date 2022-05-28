@@ -74,7 +74,8 @@ module.exports = {
                     collapsable: false,
                     children: [
                         'mqtt/1.config',
-                        'mqtt/2.auth'
+                        'mqtt/2.auth',
+                        'mqtt/3.ssl'
                     ]
                 },
                 {
@@ -144,7 +145,8 @@ module.exports = {
                     title: 'ACL权限',
                     collapsable: false,
                     children: [
-                        'acl/1.acl'
+                        'acl/1.acl',
+                        'acl/2.acl_config'
                     ]
                 },
                 {
