@@ -9,7 +9,7 @@
     "devDependencies": {
         "@vuepress-reco/vuepress-plugin-bulletin-popover": "1.5.7",
         "vuepress": "1.5.4",
-        "vuepress-theme-reco": "1.6.6"
+        "vuepress-theme-reco": "1.6.14"
     },
-    "description": "smqt-doc"
+    "description": "smqtt-doc"
 }
