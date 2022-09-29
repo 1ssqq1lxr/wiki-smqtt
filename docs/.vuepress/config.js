@@ -25,7 +25,7 @@ module.exports = {
                 text: '文档',
                 icon: 'reco-document',
                 items: [
-                    {text: 'smqtt文档', link: '/smqtt/'},
+                    {text: 'SMQTT文档', link: '/smqtt/'},
                     {text: 'MQTT协议3.1.1中文版', link: '/mqtt/'}
                 ]
             },
@@ -53,7 +53,7 @@ module.exports = {
         sidebar: {
             '/smqtt/': [
                 {
-                    title: 'smqtt文档',
+                    title: 'SMQTT文档',
                     collapsable: false,
                     children: [
                         ''
