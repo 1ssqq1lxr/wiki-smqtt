@@ -11,5 +11,5 @@
         "vuepress": "1.5.4",
         "vuepress-theme-reco": "1.6.8"
     },
-    "description": "smqt-doc"
+    "description": "smqtt-doc"
 }
