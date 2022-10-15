@@ -7,9 +7,9 @@
         "docs:build": "vuepress build docs"
     },
     "devDependencies": {
-        "@vuepress-reco/vuepress-plugin-bulletin-popover": "1.5.7",
-        "vuepress": "1.5.4",
-        "vuepress-theme-reco": "1.6.8"
+        "@vuepress-reco/vuepress-plugin-bulletin-popover": "1.6.16",
+        "vuepress": "1.9.2",
+        "vuepress-theme-reco": "1.6.16"
     },
     "description": "smqtt-doc"
 }

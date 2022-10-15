@@ -26,24 +26,24 @@
 </template>
 
 <script>
-import { defineComponent, computed, getCurrentInstance } from 'vue-demi'
-import { RecoIcon } from '@vuepress-reco/core/lib/components'
-import { version } from '../package.json'
+import {computed, defineComponent} from 'vue'
+import {RecoIcon} from '@vuepress-reco/core/lib/components'
+import {version} from '../package.json'
+import {useInstance} from '@theme/helpers/composable'
+
 export default defineComponent({
-  components: { RecoIcon },
-  setup (props, ctx) {
-    const instance = getCurrentInstance().proxy
+  components: {RecoIcon},
+  setup(props, ctx) {
+    const instance = useInstance()
     const showAccessNumber = computed(() => {
-      const {
-        $themeConfig: { valineConfig },
-        $themeLocaleConfig: { valineConfig: valineLocalConfig }
-      } = instance
+      const valineConfig = instance?.$themeConfig?.valineConfig
+      const valineLocalConfig = instance?.$themeLocaleConfig?.valineConfig
 
       const vc = valineLocalConfig || valineConfig
 
       return vc && vc.visitor != false
     })
-    return { version, showAccessNumber }
+    return {version, showAccessNumber}
   }
 })
 </script>

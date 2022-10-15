@@ -1,30 +1,23 @@
 <template>
   <div class="password-shadow">
-    <ModuleTransition>
-      <h3 v-show="recoShowModule" class="title">{{isPage ? $frontmatter.title : $site.title || $localeConfig.title}}</h3>
-    </ModuleTransition>
+    <h3 class="title">{{ isPage ? $frontmatter.title : $site.title || $localeConfig.title }}</h3>
 
-    <ModuleTransition delay="0.08">
-      <p class="description" v-if="recoShowModule && !isPage">{{$site.description || $localeConfig.description}}</p>
-    </ModuleTransition>
+    <p v-if="!isPage" class="description">{{ $site.description || $localeConfig.description }}</p>
 
-    <ModuleTransition delay="0.16">
-      <label v-show="recoShowModule" class="inputBox" id="box">
-        <input
-            v-model="key"
-            type="password"
-            @keyup.enter="inter"
-            @focus="inputFocus"
-            @blur="inputBlur">
-        <span>{{warningText}}</span>
-        <button ref="passwordBtn" @click="inter">OK</button>
-      </label>
-    </ModuleTransition>
+    <label id="box" class="inputBox">
+      <input
+          v-model="key"
+          type="password"
+          @blur="inputBlur"
+          @focus="inputFocus"
+          @keyup.enter="inter">
+      <span>{{ warningText }}</span>
+      <button ref="passwordBtn" @click="inter">OK</button>
+    </label>
 
-    <ModuleTransition delay="0.24">
-      <div v-show="recoShowModule" class="footer">
-        <span>
-          <reco-icon icon="reco-copyright" />
+    <div class="footer">
+      <span>
+          <reco-icon icon="reco-copyright"/>
           <a>
             <span v-if="$themeConfig.author">{{ $themeConfig.author }}</span>
             &nbsp;&nbsp;
@@ -32,34 +25,33 @@
             {{ year }}
           </a>
         </span>
-      </div>
-    </ModuleTransition>
+    </div>
   </div>
 </template>
 
 <script>
-import { defineComponent, ref, toRefs, computed, getCurrentInstance } from 'vue-demi'
+import {defineComponent, ref, toRefs} from 'vue'
 import md5 from 'md5'
-import { ModuleTransition, RecoIcon } from '@vuepress-reco/core/lib/components'
+import {RecoIcon} from '@vuepress-reco/core/lib/components'
+import {useInstance} from '@theme/helpers/composable'
 
 export default defineComponent({
   name: 'Password',
-  components: { ModuleTransition, RecoIcon },
+  components: {RecoIcon},
   props: {
     isPage: {
       type: Boolean,
       default: false
     }
   },
-  setup (props, ctx) {
-    const instance = getCurrentInstance().proxy
+  setup(props, ctx) {
+    const instance = useInstance()
 
     const year = new Date().getFullYear()
 
     const key = ref('')
-    const warningText = ref('请输入密码!')
-    const recoShowModule = computed(() => instance?.$parent?.recoShowModule)
-    const { isPage } = toRefs(props)
+    const warningText = ref('Konck! Knock!')
+    const {isPage} = toRefs(props)
 
     const isHasKey = () => {
       let { keys } = instance.$themeConfig.keyPage
@@ -104,7 +96,7 @@ export default defineComponent({
       warningText.value = '请输入密码!'
     }
 
-    return { warningText, year, key, recoShowModule, inter, inputFocus, inputBlur }
+    return {warningText, year, key, inter, inputFocus, inputBlur}
   }
 })
 </script>
