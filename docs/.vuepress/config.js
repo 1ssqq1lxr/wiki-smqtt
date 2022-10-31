@@ -26,6 +26,7 @@ module.exports = {
                 icon: 'reco-document',
                 items: [
                     {text: 'SMQTT文档', link: '/smqtt/'},
+                    {text: 'SMQTTX文档', link: '/smqttx/'},
                     {text: 'MQTT协议3.1.1中文版', link: '/mqtt/'}
                 ]
             },
