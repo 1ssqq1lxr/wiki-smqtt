@@ -1,6 +1,6 @@
 module.exports = {
-    title: "SMQTT在线文档",
-    description: 'SMQTT是一款开源的MQTT消息代理Broker',
+    title: "SMQTTX文档",
+    description: 'SMQTTX是一款开源的MQTT消息代理Broker',
     dest: 'public',
     base: '/',
     sidebar: 'auto',
@@ -25,8 +25,8 @@ module.exports = {
                 text: '文档',
                 icon: 'reco-document',
                 items: [
-                    {text: 'SMQTT文档', link: '/smqtt/'},
                     {text: 'SMQTTX文档', link: '/smqttx/'},
+                    {text: 'SMQTT文档(不再更新)', link: '/smqtt/'},
                     {text: 'MQTT协议3.1.1中文版', link: '/mqtt/'}
                 ]
             },
