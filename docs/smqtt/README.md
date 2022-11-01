@@ -5,7 +5,7 @@ title: 项目简介
 
 ## 架构图
 
-![component108](component108.png)
+![component108](smqtt.png)
 
 ## smqtt目前拥有的功能如下：
 
