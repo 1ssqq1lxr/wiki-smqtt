@@ -5,7 +5,7 @@ title: 项目简介
 
 ## 架构图
 
-![SMQTTX](smqttx.png)
+![SMQTTX](smqttx.jpg)
 
 ## SMQTTX功能列表：
 | 功能                       | 说明                              | 
@@ -22,7 +22,6 @@ title: 项目简介
 | 规则引擎                     | 支持规则引擎转发                        |
 | ACL                      | 支持访问控制                          |
 | 管理后台                     | 支持管理后台                          |
-
 ## WIKI地址
 https://wiki.smqtt.cc/smqttx/
    
