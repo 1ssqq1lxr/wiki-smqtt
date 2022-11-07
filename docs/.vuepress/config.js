@@ -167,6 +167,24 @@ module.exports = {
                     ]
                 },
             ],
+            '/smqttx/': [
+                {
+                    title: 'SMQTTX文档',
+                    collapsable: false,
+                    children: [
+                        ''
+                    ]
+                },
+                {
+                    title: '快速开始',
+                    collapsable: false,
+                    children: [
+                        'quickstart/1.config',
+                        'quickstart/2.spring',
+                        'quickstart/3.nospring'
+                    ]
+                },
+            ],
             '/mqtt/': [
                 {
                     title: 'MQTT文档',
