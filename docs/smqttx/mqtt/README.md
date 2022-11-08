@@ -1,7 +1,7 @@
 ---
 sort: 1
 ---
-# MQTT相关配置
+# MQTT配置
 
 ```yaml
 smqtt:
@@ -26,5 +26,18 @@ smqtt:
       ca: /user/my.ca # 证书
 ```
 
-{% include list.liquid %}
-
+| 字段                      | 说明                           | 
+|-------------------------|------------------------------|
+| port | 端口号                          | 
+| wiretap                | 是否打印二进制报文，生产环境谨慎使用           | 
+| bossThreadSize               | Netty boss线程 启动一个端口一般1~2线程即可 | 
+| workThreadSize                    | Netty work线程 推荐cpu数+3        |
+| businessThreadSize                  | 业务线程 推荐cpu数                  |
+| businessQueueSize                  | 背压任务数，推荐200000               |
+| messageMaxSize                | Mqtt协议单词报文负载大小               |
+| lowWaterMark            | 低水位，最好默认                     |
+| highWaterMark                | 高水位，最好默认                     |
+| globalReadWriteSize                    | 全局读写大小/每秒 格式： 读数_写数          |
+| channelReadWriteSize                     | 单个连接读写大小/每秒 格式： 读数_写数        |
+| options                    | Netty启动options参数             |
+| ssl                    | 请参考SSL配置                     |

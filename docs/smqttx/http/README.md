@@ -1,0 +1,21 @@
+---
+sort: 1
+---
+# HTTP配置
+
+```yaml
+smqtt:
+  http: # http相关配置 端口固定60000
+    host: 127.0.0.1
+    accessLog: true # http访问日志
+    admin: # 后台管理配置
+      username: smqtt # 访问用户名
+      password: smqtt # 访问密码
+```
+
+| 字段                      | 说明                    | 
+|-------------------------|-----------------------|
+| host | 主机                    | 
+| accessLog                | http请求日志              | 
+| username               | 管理后台用户名               | 
+| password                    | 管理后台密码                |

@@ -170,20 +170,46 @@ module.exports = {
             '/smqttx/': [
                 {
                     title: 'SMQTTX文档',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         ''
                     ]
                 },
                 {
                     title: '快速开始',
-                    collapsable: false,
+                    collapsable: true,
                     children: [
                         'quickstart/1.config',
                         'quickstart/2.spring',
                         'quickstart/3.nospring'
                     ]
                 },
+                {
+                    title: 'MQTT配置',
+                    collapsable: true,
+                    children: [
+                        'mqtt'
+                    ]
+                },
+                {
+                    title: 'HTTP配置',
+                    collapsable: true,
+                    children: [
+                        'http'
+                    ]
+                },
+                {
+                    title: '数据源文档',
+                    collapsable: false,
+                    children: [
+                        'source/1.kafka',
+                        'source/2.http',
+                        'source/2.rocket_mq',
+                        'source/3.mysql',
+                        'source/4.rabbitmq',
+                        'source/5.mqtt'
+                    ]
+                }
             ],
             '/mqtt/': [
                 {
