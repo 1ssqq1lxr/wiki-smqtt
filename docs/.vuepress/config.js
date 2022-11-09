@@ -194,14 +194,14 @@ module.exports = {
                 },
                 {
                     title: 'HTTP配置',
-                    collapsable: true,
+                    collapsable: false,
                     children: [
                         'http/1.http'
                     ]
                 },
                 {
                     title: '规则引擎文档',
-                    collapsable: true,
+                    collapsable: false,
                     children: [
                         'rule/0.rule',
                         'rule/1.rule',
@@ -219,7 +219,7 @@ module.exports = {
                 },
                 {
                     title: '数据源文档',
-                    collapsable: true,
+                    collapsable: false,
                     children: [
                         'datasource/1.kafka',
                         'datasource/2.http',
