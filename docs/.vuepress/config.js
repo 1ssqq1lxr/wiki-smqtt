@@ -199,15 +199,33 @@ module.exports = {
                     ]
                 },
                 {
-                    title: '数据源文档',
-                    collapsable: false,
+                    title: '规则引擎文档',
+                    collapsable: true,
                     children: [
-                        'source/1.kafka',
-                        'source/2.http',
-                        'source/2.rocket_mq',
-                        'source/3.mysql',
-                        'source/4.rabbitmq',
-                        'source/5.mqtt'
+                        'rule/0.rule',
+                        'rule/1.rule',
+                        'rule/2.config',
+                        'rule/3.predicate',
+                        'rule/4.kafka',
+                        'rule/5.http',
+                        'rule/5.rocket_mq',
+                        'rule/6.log',
+                        'rule/7.mysql',
+                        'rule/8.rabbitmq',
+                        'rule/9.mqtt',
+                        'rule/10.topic'
+                    ]
+                },
+                {
+                    title: '数据源文档',
+                    collapsable: true,
+                    children: [
+                        'datasource/1.kafka',
+                        'datasource/2.http',
+                        'datasource/2.rocket_mq',
+                        'datasource/3.mysql',
+                        'datasource/4.rabbitmq',
+                        'datasource/5.mqtt'
                     ]
                 }
             ],
