@@ -188,14 +188,14 @@ module.exports = {
                     title: 'MQTT配置',
                     collapsable: true,
                     children: [
-                        'mqtt'
+                        '1.mqtt'
                     ]
                 },
                 {
                     title: 'HTTP配置',
                     collapsable: true,
                     children: [
-                        'http'
+                        '1.http'
                     ]
                 },
                 {
