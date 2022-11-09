@@ -183,50 +183,6 @@ module.exports = {
                         'quickstart/2.spring',
                         'quickstart/3.nospring'
                     ]
-                },
-                {
-                    title: 'MQTT配置',
-                    collapsable: true,
-                    children: [
-                        '1.mqtt'
-                    ]
-                },
-                {
-                    title: 'HTTP配置',
-                    collapsable: true,
-                    children: [
-                        '1.http'
-                    ]
-                },
-                {
-                    title: '规则引擎文档',
-                    collapsable: true,
-                    children: [
-                        'rule/0.rule',
-                        'rule/1.rule',
-                        'rule/2.config',
-                        'rule/3.predicate',
-                        'rule/4.kafka',
-                        'rule/5.http',
-                        'rule/5.rocket_mq',
-                        'rule/6.log',
-                        'rule/7.mysql',
-                        'rule/8.rabbitmq',
-                        'rule/9.mqtt',
-                        'rule/10.topic'
-                    ]
-                },
-                {
-                    title: '数据源文档',
-                    collapsable: true,
-                    children: [
-                        'datasource/1.kafka',
-                        'datasource/2.http',
-                        'datasource/2.rocket_mq',
-                        'datasource/3.mysql',
-                        'datasource/4.rabbitmq',
-                        'datasource/5.mqtt'
-                    ]
                 }
             ],
             '/mqtt/': [
