@@ -171,9 +171,7 @@ module.exports = {
                 {
                     title: 'SMQTTX文档',
                     collapsable: false,
-                    children: [
-                        ''
-                    ]
+                    path: ''
                 },
                 {
                     title: '快速开始',
@@ -188,58 +186,42 @@ module.exports = {
                 {
                     title: 'MQTT配置',
                     collapsable: false,
-                    children: [
-                        'mqtt/1.mqtt'
-                    ]
+                    path: 'mqtt/1.mqtt'
                 },
                 {
                     title: 'HTTP配置',
                     collapsable: false,
-                    children: [
-                        'http/1.http'
-                    ]
+                    path: 'http/1.http'
                 },
                 {
                     title: 'Websocket配置',
                     collapsable: false,
-                    children: [
-                        'ws/1.ws'
-                    ]
+                    path: 'ws/1.ws'
                 },
                 {
                     title: 'SSL配置',
                     collapsable: false,
-                    children: [
-                        'ssl/1.ssl'
-                    ]
+                    path: 'ssl/1.ssl'
                 },
                 {
                     title: '集群配置',
                     collapsable: false,
-                    children: [
-                        'cluster/1.cluster'
-                    ]
+                    path: 'cluster/1.cluster'
                 },
                 {
                     title: '认证配置',
                     collapsable: false,
-                    children: [
-                        'auth/1.auth'
-                    ]
+                    path: 'auth/1.auth'
                 },
                 {
                     title: 'ACL配置',
                     collapsable: false,
-                    children: [
-                        'acl/1.acl'
-                    ]
+                    path: 'acl/1.acl'
                 },
                 {
                     title: '管理后台配置',
                     collapsable: false,
-                    children: [
-                        'admin/1.admin'
-                    ]
+                    path: 'admin/1.admin'
                 },
                 {
                     title: '规则引擎文档',
