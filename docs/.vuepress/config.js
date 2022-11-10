@@ -171,7 +171,9 @@ module.exports = {
                 {
                     title: 'SMQTTX文档',
                     collapsable: false,
-                    path: ''
+                    children: [
+                        ''
+                    ]
                 },
                 {
                     title: '快速开始',
@@ -184,45 +186,54 @@ module.exports = {
                 }
                 ,
                 {
-                    title: 'MQTT配置',
+                    title: '配置',
                     collapsable: false,
-                    path: 'mqtt/1.mqtt'
+                    children: [
+                        'mqtt/1.mqtt',
+                        'http/1.http',
+                        'ws/1.ws',
+                        'ssl/1.ssl',
+                        'cluster/1.cluster',
+                        'auth/1.auth',
+                        'admin/1.admin',
+                        'datasource/'
+                    ]
                 },
-                {
-                    title: 'HTTP配置',
-                    collapsable: false,
-                    path: 'http/1.http'
-                },
-                {
-                    title: 'Websocket配置',
-                    collapsable: false,
-                    path: 'ws/1.ws'
-                },
-                {
-                    title: 'SSL配置',
-                    collapsable: false,
-                    path: 'ssl/1.ssl'
-                },
-                {
-                    title: '集群配置',
-                    collapsable: false,
-                    path: 'cluster/1.cluster'
-                },
-                {
-                    title: '认证配置',
-                    collapsable: false,
-                    path: 'auth/1.auth'
-                },
-                {
-                    title: 'ACL配置',
-                    collapsable: false,
-                    path: 'acl/1.acl'
-                },
-                {
-                    title: '管理后台配置',
-                    collapsable: false,
-                    path: 'admin/1.admin'
-                },
+                // {
+                //     title: 'HTTP配置',
+                //     collapsable: false,
+                //     path: 'http/1.http'
+                // },
+                // {
+                //     title: 'Websocket配置',
+                //     collapsable: false,
+                //     path: 'ws/1.ws'
+                // },
+                // {
+                //     title: 'SSL配置',
+                //     collapsable: false,
+                //     path: 'ssl/1.ssl'
+                // },
+                // {
+                //     title: '集群配置',
+                //     collapsable: false,
+                //     path: 'cluster/1.cluster'
+                // },
+                // {
+                //     title: '认证配置',
+                //     collapsable: false,
+                //     path: 'auth/1.auth'
+                // },
+                // {
+                //     title: 'ACL配置',
+                //     collapsable: false,
+                //     path: 'acl/1.acl'
+                // },
+                // {
+                //     title: '管理后台配置',
+                //     collapsable: false,
+                //     path: 'admin/1.admin'
+                // },
                 {
                     title: '规则引擎文档',
                     collapsable: false,
