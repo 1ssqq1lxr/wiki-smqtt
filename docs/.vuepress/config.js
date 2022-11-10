@@ -200,6 +200,48 @@ module.exports = {
                     ]
                 },
                 {
+                    title: 'Websocket配置',
+                    collapsable: false,
+                    children: [
+                        'ws/1.ws'
+                    ]
+                },
+                {
+                    title: 'SSL配置',
+                    collapsable: false,
+                    children: [
+                        'ssl/1.ssl'
+                    ]
+                },
+                {
+                    title: '集群配置',
+                    collapsable: false,
+                    children: [
+                        'cluster/1.cluster'
+                    ]
+                },
+                {
+                    title: '认证配置',
+                    collapsable: false,
+                    children: [
+                        'auth/1.auth'
+                    ]
+                },
+                {
+                    title: 'ACL配置',
+                    collapsable: false,
+                    children: [
+                        'acl/1.acl'
+                    ]
+                },
+                {
+                    title: '管理后台配置',
+                    collapsable: false,
+                    children: [
+                        'admin/1.admin'
+                    ]
+                },
+                {
                     title: '规则引擎文档',
                     collapsable: false,
                     children: [
