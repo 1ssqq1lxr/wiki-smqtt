@@ -67,7 +67,7 @@ module.exports = {
                         'quickstart/1.jar',
                         'quickstart/2.docker',
                         'quickstart/3.main',
-                        'quickstart/4.spring'
+                        'quickstart/4.spring',
                     ]
                 },
                 {
@@ -181,7 +181,8 @@ module.exports = {
                     children: [
                         'quickstart/1.config',
                         'quickstart/2.spring',
-                        'quickstart/3.nospring'
+                        'quickstart/3.nospring',
+                        'quickstart/4.docker'
                     ]
                 }
                 ,
