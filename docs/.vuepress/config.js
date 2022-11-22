@@ -17,7 +17,7 @@ module.exports = {
                 icon: 'reco-home'
             },
             {
-                text: '支持',
+                text: '商业合作',
                 icon: 'reco-three',
                 link: '/support/'
             },
@@ -400,7 +400,7 @@ module.exports = {
                 },
                 {
                     type: 'text',
-                    content: '扫码添加微信或者直接搜索微信：Lemon877164954，拉入微信交流群'
+                    content: '扫码添加微信或者直接搜索微信：17512575402，拉入微信交流群'
                 },
                 {
                     type: 'image',
