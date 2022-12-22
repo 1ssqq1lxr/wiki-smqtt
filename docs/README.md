@@ -19,6 +19,22 @@ actionText: 快速开始→
 actionLink: /smqtt/
 features:
 
+## 🎖特别用户
+::: cardList 3
+```yaml
+- name: MyBatis-Plus官网
+  desc: 🚀为简化开发而生
+  link: https://baomidou.com/
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344'
+- name: Deepin 社区
+  desc: Deepin 应用开发技术分享、DTK开发经验等
+  link: https://docs.deepin.org
+  bgColor: '#f1f1f1'
+  textColor: '#2A3344
+```
+:::
+
 - title: 高性能
   details: SMQTTX基于reactor-core反应库构建，具备低延迟，高吞吐量等特点，支持百万连接！
 - title: 多功能
