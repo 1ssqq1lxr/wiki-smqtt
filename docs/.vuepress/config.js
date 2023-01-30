@@ -425,7 +425,7 @@ module.exports = {
             // 已申请的微信公众号二维码图片
             qrcode: 'https://gitee.com/quickmsg/mqtt-cluster/raw/main/icon/icon.jpg',
             // 文章内容的 JS 选择器，若使用的不是官方默认主题，则需要根据第三方的主题来设置
-            selector: 'div.theme-default-content',
+            selector: 'div.theme-reco-content',
             // 自定义的 JS 资源链接，可用于 CDN 加速
             libUrl: 'https://qiniu.techgrow.cn/readmore/dist/readmore.js',
             // 自定义的 CSS 资源链接，可用于适配不同风格的博客
