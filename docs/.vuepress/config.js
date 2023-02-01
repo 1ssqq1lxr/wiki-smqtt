@@ -419,11 +419,11 @@ module.exports = {
             // 已申请的博客 ID
             blogId: '61315-3124172831919-149',
             // 已申请的微信公众号名称
-            name: 'coding途中',
+            name: '物联网交流社',
             // 已申请的微信公众号回复关键词
             keyword: '访问密码',
             // 已申请的微信公众号二维码图片
-            qrcode: 'https://gitee.com/quickmsg/mqtt-cluster/raw/main/icon/icon.jpg',
+            qrcode: '/icon.jpg',
             // 文章内容的 JS 选择器，若使用的不是官方默认主题，则需要根据第三方的主题来设置
             selector: 'div.theme-reco-content',
             // 自定义的 JS 资源链接，可用于 CDN 加速
