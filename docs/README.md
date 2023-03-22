@@ -16,7 +16,7 @@ bgImageStyle: {
 }
 isShowTitleInHome: false
 actionText: 快速开始→
-actionLink: /smqtt/
+actionLink: /smqttx/
 features:
 
 
