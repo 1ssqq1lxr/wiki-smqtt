@@ -21,14 +21,14 @@ module.exports = {
                 icon: 'reco-three',
                 link: '/support/'
             },
-            // {
-            //     text: 'FluxMQ',
-            //     icon: 'reco-document',
-            //     items: [
-            //         {text: '官网', link: 'https://www.fluxmq.com/'},
-            //         {text: '演示地址', link: 'http://demo.fluxmq.com/'}
-            //     ]
-            // },
+            {
+                text: 'FluxMQ',
+                icon: 'reco-document',
+                items: [
+                    {text: '官网', link: 'https://www.fluxmq.com/'},
+                    {text: '演示地址', link: 'http://demo.fluxmq.com/'}
+                ]
+            },
             {
                 text: '文档',
                 icon: 'reco-document',
